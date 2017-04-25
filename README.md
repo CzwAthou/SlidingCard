@@ -1,0 +1,2 @@
+# SlidingCard
+a SlidingCard widget
