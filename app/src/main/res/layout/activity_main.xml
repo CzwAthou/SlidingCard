@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.athou.slidingcard.SlidingCardLayout
+        android:id="@+id/panel_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:android_background="#A55"
+        app:android_text="卡片1"/>
+
+    <com.athou.slidingcard.SlidingCardLayout
+        android:id="@+id/panel_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:android_background="#5A5"
+        app:android_text="卡片2"/>
+
+    <com.athou.slidingcard.SlidingCardLayout
+        android:id="@+id/panel_3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:android_background="#55A"
+        app:android_text="卡片3"/>
+
+    <com.athou.slidingcard.SlidingCardLayout
+        android:id="@+id/panel_4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:android_background="#555"
+        app:android_text="卡片4"/>
+</android.support.design.widget.CoordinatorLayout>
